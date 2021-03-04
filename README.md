@@ -1,24 +1,11 @@
 # movieapp_vuex
 
-## Project setup
-```
-npm install
-```
+### What Project
+  This project is show the movie infomation.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### use skils
+  - Vuejs
+  - Router
+  - bootstrap
+  - axios
+  - vuex
