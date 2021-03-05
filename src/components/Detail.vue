@@ -1,7 +1,7 @@
 <template>
   <div>
     <hr />
-    <h2>Detail - {{ data.title }}</h2>
+    <h2 class="detail_title">Detail - {{ data.title }}</h2>
     <hr />
     <div class="detail_body">
       <img
@@ -48,13 +48,14 @@ export default {
   },
 };
 </script>
-<style>
+<style scope>
 .detail_body {
   display: flex;
+  /* height: 80vw; */
 }
 .detailImg {
   border-radius: 10px;
-  width: 50%;
+  width: 30%;
   height: 100%;
   margin: 20px;
 }
@@ -64,5 +65,20 @@ export default {
   padding: 10px;
   background-color: #f1f1f1;
   margin: 20px;
+}
+@media screen and (max-width: 768px) {
+  .detail_title {
+    font-size: 25px;
+  }
+  .detail_body {
+    display: block;
+  }
+  .detailImg {
+    width: 70%;
+  }
+  .detail_info h3 {
+    font-size: 25px;
+    font-weight: 800;
+  }
 }
 </style>

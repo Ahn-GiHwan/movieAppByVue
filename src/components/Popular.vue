@@ -44,37 +44,5 @@ export default {
   methods: {},
 };
 </script>
-<style>
-@media (min-width: 768px) {
-  .posters {
-    display: block;
-  }
-}
-.posters {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
-}
-.poster {
-  width: 300px;
-}
-.posterImg {
-  width: 100%;
-  height: 300px;
-}
-.card-body h4 {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-.card-body p {
-  font-size: 12px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-.card-footer {
-  display: flex;
-  justify-content: flex-end;
-}
+<style scope>
 </style>
