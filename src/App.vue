@@ -16,15 +16,8 @@ export default {
 </script>
 
 <style scope>
-@font-face {
-  font-family: "MaplestoryOTFLight";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 #app {
-  font-family: MaplestoryOTFLight;
+  font-family: "PT Sans", sans-serif;
 }
 .posters {
   display: grid;
